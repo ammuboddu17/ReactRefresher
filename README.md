@@ -20,7 +20,7 @@ This repository serves as a personal refresher and learning space for revisiting
 - React 18+
 - JSX & Functional Components
 - React Hooks
-- Modern JavaScript (ES6+)
+- Modern JavaScript ((ES6+))
 ---
 
 > _Stay tuned — more updates coming soon!_
