@@ -1,0 +1,79 @@
+/* App container */
+.app-container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Mood form */
+.mood-form {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2em 1em 1.5em 1em;
+  margin-bottom: 2em;
+}
+
+h1, h2 {
+  margin-bottom: 1em;
+}
+
+.emoji-row {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.emoji-btn {
+  background: white;
+  border: 1px solid #ccc;
+  margin: 4px;
+  font-size: 32px;
+  transition: outline 0.2s, background 0.2s;
+}
+.emoji-btn.selected {
+  background: #e0e0e0;
+  outline: 2px solid #1976d2;
+}
+
+.intention-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  margin-top: 12px;
+  padding: 8px 24px;
+  background: #0ad375;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submit-btn:disabled {
+  background: #b0b0b0;
+  cursor: not-allowed;
+}
+
+/* Mood feed */
+.mood-feed {
+  margin-top: 32px;
+}
+.feed-list {
+  padding: 0;
+}
+.feed-item {
+  list-style: none;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+.feed-date, .feed-emoji, .feed-intention {
+  margin-bottom: 4px;
+}
+.empty-feed {
+  color: #888;
+}
