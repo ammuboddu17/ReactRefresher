@@ -4,6 +4,8 @@
 
 This repository serves as a personal refresher and learning space for revisiting **React.js** concepts and best practices during my career break. It is a placeholder for future projects, practice code, and notes as I rebuild momentum in front-end development with a modern tech stack.
 
+Project#1: [MoodTracker](https://github.com/ammuboddu17/ReactRefresher/tree/main/MoodTracker)
+
 ---
 
 ## 🎯 Goals
